@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) 13.5.4 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with all default options at 2023 October 12.
+
+```bash
+npx create-next-app@latest
+```
+
+## Installed packages
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- autoprefixer
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+
+## My environment
+
+* [Volta](https://github.com/volta-cli/volta/releases)
+
+```
+> volta list
+⚡ Currently active tools:
+
+    Node: v18.18.1 (default)
+    npm: v10.2.0 (default)
+    Yarn: v4.0.0-rc.36 (default)
+    Tool binaries available:
+        vue (default)
+```
+
+***
 
 ## Getting Started
 
