@@ -1,9 +1,14 @@
+import { Suspense } from 'react';
+import ZenComponent from '../components/ZenComponent'
+
 export default async function Zen() {
-    const res = await fetch('https://api.github.com/zen')  
-    const data = await res.text()
     return (
-      <main>
-        <p className="p-4">{data}</p>
-      </main>
-  )
+        <main>
+            <p className="p-4">
+                <Suspense fallback={<span>Loading...</span>}>
+                    <ZenComponent />
+                </Suspense>
+            </p>
+        </main>
+    )
 }
